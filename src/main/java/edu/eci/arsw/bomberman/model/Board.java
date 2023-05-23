@@ -8,7 +8,7 @@ import java.util.concurrent.ConcurrentHashMap;
 public class Board implements Serializable {
 
     ConcurrentHashMap<Pair<Integer, Integer>, Position> Positions = new ConcurrentHashMap<>();
-
+    // probar
     public Board(){
         for (int x = 0; x < 21; x++){
             for (int y = 0; y < 13; y++){
